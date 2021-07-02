@@ -1,0 +1,325 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:auto 0;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"]{
+    float: left;
+    padding: 20px;
+}
+.body{
+    width: 100%;
+    height: 120px;
+    background-color:yellow;
+    position:fixed;
+    
+}
+.logo img{
+    width:120px;
+}
+.logo{
+    padding-left: 70px;
+    padding-top:5px;
+}
+
+.menu{
+    padding-top: 70px;
+    padding-left: 200px;
+}
+.menu a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 1.2rem;
+    color:green;
+    
+}
+.menu a:hover{
+    padding: 10px;
+    background:red;
+    color: white;
+    border-radius: 10px;
+    
+    transition: 0.5s;
+}
+.banner{
+    background-image: url("images/joseph-gonzalez-H1B992dIpbI-unsplash.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    
+}
+.banner-text{
+    font-size: 2.5rem;
+    padding-left: 850px;
+    padding-top: 200px;
+    padding-right: 50px;
+    
+}
+.banner-text h1{
+    font-family: 'Shadows Into Light', cursive;
+    border: 5px yellow solid;
+    background:yellow;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.banner-text h3{
+    background-color: green;
+    border-radius: 20px;
+    text-align: center;
+    width: 650px;
+    padding: 15px;
+    color: white;
+}
+.banner-text input{
+    width: 200px;
+    height: 70px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background:green;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.button{
+    padding-left: 200px;
+
+}
+.banner-text input:hover{
+    background:yellow;
+    transition: 0.5s;
+    cursor: pointer;
+    color: black;
+    transform: scale(1.2);
+}
+.About{
+    padding-top: 40px;
+}
+.About h1{
+    font-size:2rem;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.About p{
+    padding: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+.order{
+    padding-top: 30px;
+    background: rgb(73, 75, 71);
+    color: white;
+    height: 550px;
+}
+.order h1{
+    font-size:2rem;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.order p{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+.order ul{
+    padding-left: 100px;
+}
+.order li{
+    
+    font-size: 1.2rem;
+    padding: 10px;
+    font-weight: bolder;
+}
+.button-2{
+    padding-left: 100px;
+}
+.button-2 input{
+    width: 250px;
+    height: 50px;
+    font-size: 1rem;
+    padding: 10px;
+    background: rgb(255, 123, 0);
+    color: white;
+    text-transform: uppercase;
+}
+.button-2 input:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.food-menu{
+    padding-top: 50px;
+    background-color: orange;
+    height: 650px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: auto;
+    text-align: center;
+    
+}
+.first-menu{
+    margin: 50px;
+    margin-right: 60px;
+    background:black;
+    padding: 50px;
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+.first-menu:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    
+}
+.first-menu input{
+    width: 80px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    font-size: 1rem;  
+}
+.first-menu input:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.first-menu img{
+    width: 200px;
+    margin-left:10px; 
+    border-radius: 60px;
+    
+}
+
+.second-menu{
+    margin: 50px;
+    margin-right: 60px;
+    background:black;
+    padding: 50px;
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+.second-menu:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    
+}
+
+.second-menu img{
+    width: 200px;
+    margin-left:10px; 
+    border-radius: 60px;
+}
+.second-menu input{
+    width: 80px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    font-size: 1rem;  
+}
+.second-menu input:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.third-menu{
+    margin: 50px;
+    background:black;
+    padding: 50px;
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+.third-menu:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    
+}
+.third-menu img{
+    width: 200px;
+    margin-left:10px; 
+    border-radius: 60px;
+}
+.third-menu input{
+    width: 80px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    font-size: 1rem;  
+}
+.third-menu input:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.next-page{
+    float:right;
+    padding-right: 60px;
+}
+.next-page input{
+    
+    width: 120px;
+    height: 50px;
+    font-size: 1rem;
+    background-color:black;
+    color:orangered;
+    padding: 10px;
+}
+.next-page input:hover{
+    transition:0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.contact{
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 520px;
+    margin-top:50px;
+}
+.contact-information{
+    padding-top: 90px;
+    text-align: center;
+    padding-left: 100px;
+}
+.last{
+
+    background-color: black;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+    
+    
+}
+.last a{
+    
+    text-decoration:none;
+    color: white;
+    margin: 20px;
+
+}
+.last p{
+    color: white;
+    margin: 20px;
+}
